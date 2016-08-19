@@ -36,5 +36,3 @@ def food(hours,sweet):
             return "dinner" + "," + "dessert"
         else:
             return "dinner"
-
-print food(4,False)
