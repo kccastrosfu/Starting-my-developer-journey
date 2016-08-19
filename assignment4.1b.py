@@ -31,8 +31,6 @@ def repeat_middle_even(word) :
 def repeat_middle(word):
     length = len(word)
     if length%2==0:
-        print repeat_middle_even(word)
+        return repeat_middle_even(word)
     else:
-        print repeat_middle_odd(word)
-
-repeat_middle(word)
+        return repeat_middle_odd(word)
