@@ -28,4 +28,6 @@ def cookies(num):
     net_profit = huge_proft + small_proft - net_loss
     dots = ".."
     return (str( huge_box ) + dots + str( small_box ) + dots + str( left_ov_smallbox )+ dots + str( net_profit ))
+    
+print (cookies(503))
 
