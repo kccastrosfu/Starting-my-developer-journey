@@ -29,4 +29,3 @@ def cookies(num):
     dots = ".."
     return (str( huge_box ) + dots + str( small_box ) + dots + str( left_ov_smallbox )+ dots + str( net_profit ))
 
-cookies(num)
