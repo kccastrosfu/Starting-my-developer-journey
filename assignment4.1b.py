@@ -34,3 +34,5 @@ def repeat_middle(word):
         return repeat_middle_even(word)
     else:
         return repeat_middle_odd(word)
+        
+print (repeat_middle("abMNcd"))
